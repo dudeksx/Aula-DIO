@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(145, 204, 198);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 57rem;
+    margin: auto;
+}
+
+#title, .subtitle, .post_title {
+    color: blueviolet;
+    font-size: 3rem;
+}
+#title {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+.post_title {
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.post {
+    background-color: rgba(255, 255, 255, 0.384);
+    padding: 0.9rem;
+    border: 0.2rem solid #000;
+    margin-bottom: .9rem;
+    border-radius: 5%;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 0.9rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.post_img {
+    margin-bottom: 0.9rem;
+    width: 100%;
+}
+
+.contact_list_title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_list {
+    list-style: none;
+    padding: 0.9rem;
+
+}
+
+.linkedin__link {
+    background-color: #2e913b;
+    color: blue;
+
+}
+.github__link {
+    background-color: #0f0606;
+    color: white;
+}

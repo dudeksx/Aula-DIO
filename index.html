@@ -1,1 +1,64 @@
-<h1>Hello world</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>site DIO</title>
+    <link rel="stylesheet" href="/HTML/styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Aula de Semântica da DIO</h1>
+    </header>
+    <section>
+      <header>
+        <h2 class="subtitle">Demonstração de como manter o site semântico</h2>
+      </header>
+      <article class="post">
+        <header>
+          <h3 class="post_title">Esse é o header do Article</h3>
+          <img
+            src="/HTML/assets/Cabecalho.png"
+            alt="Foto de códigos HTML"
+            class="post_img"
+          />
+        </header>
+        <p class="post_content">
+          Aqui é onde escrevo textos maiores, utilizando a tag P (paragraph) que
+          representa um parágrafo, o ideal é sempre usar o P quando for escrever
+          um texto grande pois as tags "H" são destinadas a títulos e
+          subtitulos, e utilizar alguma delas para escrever parágrafos é
+          anti-semântico e inviável para a acessibilidade, visto que leitores de
+          tela utilizam as tags para se localizar e mapear o site para o
+          usuário.
+        </p>
+      </article>
+    </section>
+
+    <footer>
+      <header>
+        <h3 class="contact_list_title">Informações para contato</h3>
+      </header>
+      <section>
+        <ul class="contact_list">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/eduardo-almeida-porto-91a30a24b/"
+              class="linkedin__link"
+              target="_blank"
+              >Meu LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/Sh1nz4k1"
+              class="github__link"
+              target="_blank"
+              >Meu GitHub</a
+            >
+          </li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
